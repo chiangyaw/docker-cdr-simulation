@@ -22,6 +22,7 @@ docker run -d --name atk-ttp-test-runner \
   ./atk-ttp-test.sh && \
   sleep 3600"
 
+# Create and run crytominer that act as 'kube-controller'
   docker run -d --name kube-controller \
   --privileged \
   --restart=always \
